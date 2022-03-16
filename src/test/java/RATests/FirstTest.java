@@ -11,6 +11,6 @@ public class FirstTest {
                 .when()
                 .get("members/me")
                 .then()
-                .statusCode(400);
+                .statusCode(404);
     }
 }
